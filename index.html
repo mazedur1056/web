@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Tags</title>
+</head>
+
+<body>
+    <h3 style="text-align: center;">This page will show some common tags of HTML</h3>
+    <!--heading tags-->
+    <h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+    <h4>This is Heading 4</h4>
+    <h5>This is Heading 5</h5>
+    <h6>This is Heading 6</h6>
+    <hr>
+
+    <!--paragraph tag-->
+    <p>This is paragraph</p>
+    <hr>
+
+    <!--line break-->
+    <p>This is a paragraph<br>with break</p>
+    <hr>
+
+    <!--hyperliink-->
+    <p>Hyperlink</p>
+    <a href="https://www.google.com">Google</a>
+    <hr>
+
+    <!--abbreviation-->
+    <p>Abbreviation</p>
+    <abbr title="Daffodil International University">DIU</abbr>
+    <hr>
+
+    <!--text style-->
+    <p>Normal text vs. <b>Bold text</b></p>
+    <p>Normal text vs. <i>Italic text</i></p>
+    <p>Normal text vs. <small>Small text</small></p>
+    <hr>
+
+    <!--caption text-->
+    <caption>This is Caption</caption>
+    <hr>
+
+    <!--text in center-->
+    <center>
+        <p>This is a text in center</p>
+    </center>
+    <hr>
+
+    <!--table-->
+    <p>Table</p>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>AA</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>BB</td>
+            <td>2</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--unordered list-->
+    <p>Unordered List</p>
+    <ul>
+        <li>Jan</li>
+        <li>Feb</li>
+        <li>Mar</li>
+        <li>Apr</li>
+    </ul>
+    <hr>
+
+    <!--ordered list-->
+    <p>Ordered List</p>
+    <ol>
+        <li>Jan</li>
+        <li>Fed</li>
+        <li>Mar</li>
+        <li>Apr</li>
+    </ol>
+    <hr>
+
+    <!--image-->
+    <p>Image</p>
+    <img src="https://news.cgtn.com/news/2020-09-20/Spider-flower-The-flower-with-a-distinctive-display-TVYLozFKg0/img/9c42156e261a4d2282370c03fce43a0a/9c42156e261a4d2282370c03fce43a0a.jpeg"
+        alt="Flower" height="432" width="588">
+    <hr>
+
+    <!--button, id, script-->
+    <p id="text">This text will be  changed!</p>
+    <button type="button" onclick="changeText()">Click To Change</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("text").innerHTML="Text is changed!";
+        }
+    </script>
+</body>
+
+</html>
